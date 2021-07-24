@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<title></title>
-	</head>
-	<body>
-
-		<div class="gazon" id="gazon">
-			
-			<div class="teamfull" id="teamfull">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div class="sec-content">
+		<textarea class="twoTeams" rows="35">
+</textarea>
+		<div class="les-matchs">
+		</div>
+		<div class="clear"></div>
+		<div class="tags"></div>
+	</div>
+	<div class="first-content">
+	<div id="capture">
+		<div class="gazon">	
+			<div id="teamfull" class="teamfull">
 			</div>
-
-			<div class="vs" id="vs">
-				<div class="logo" id="logo">			
+			<div class="vs">
+				<div class="logo">
 				</div>
 			</div>
 
-			<div class="teamfull2" id="teamfull2">
+			<div class="teamfull2">
 			</div>
-			
 		</div>
-<!--		<div class="param" id="param">
-			<form>
-				<input type="text" name="" class="inputLeft" id="inputLeft">
-				<input type="text" name="" class="myLogo" id="myLogo">
-				<input type="text" name="" class="inputRight" id="inputRight">
-				<button onclick="searchLeft()">Change</button>
+	</div>
+			<form id="myinput">
+				<input id="teamOne" type="text" value="">
+				<input id="teamTow" type="text" value="">
+				<input id="categorie" type="text" value="">
 			</form>
-		</div>
-		<div>
-			<img src="../images/Bochum_logo.jpg" alt="Bochum" id="Bochum" value="Bochum">Bochum
-			<img src="../images/Estonia_logo.jpg" alt="Estonia" id="Estonia" value="Estonia">Estonia
-		</div>
--->		<script type="text/javascript" src="main.js"></script>
-	</body>
+			<div class="match"></div>
+		<button id="click">Submit</button>
+		<div id="convert"></div>
+		<div id="firstSuperliga"></div>
+	</div>	
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="dom-to-image-master\src\dom-to-image.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js" integrity="sha512-wUa0ktp10dgVVhWdRVfcUO4vHS0ryT42WOEcXjVVF2+2rcYBKTY7Yx7JCEzjWgPV+rj2EDUr8TwsoWF6IoIOPg==" crossorigin="anonymous"></script>
+
+</body>
 </html>
