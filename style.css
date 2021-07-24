@@ -1,0 +1,48 @@
+.gazon {
+  width: 650px;
+  height: 405px;
+  display: inline-block;
+  margin: 0 auto;
+  background: url("botola2.jpg") no-repeat;
+  background-size: cover;
+  /* premierleague2 laliga2 championship2 bundesliga2 seriea2 ligue1conforama2 superliga2 prvahnl2 botola2 copadelrey2 carabao2 facup2 dfbpokal2 coppaitalia2*/
+}
+.vs {
+  background: rgba(100, 100, 100, 0.5) url("botola.jpg")
+    /* premierleague laliga championship bundesliga seriea ligue1conforama superliga prvahnl botola copadelrey carabao facup dfbpokal coppaitalia*/
+    no-repeat scroll center 50%;
+  background-size: 105px 105px;
+  width: 150px;
+  display: inline-block;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.logo {
+  background: url(cropped-favicon.jpg) no-repeat scroll center top;
+  display: inline-block;
+  background-size: 103px 103px;
+  width: 100%;
+  height: 100%;
+}
+
+.teamfull {
+  width: 215px;
+  display: inline-block;
+  height: 400px;
+  margin-left: 25px;
+  background: url("../images/Difaa El Jadidi.png") no-repeat scroll right center;
+  background-size: 180px 180px;
+}
+.teamfull2 {
+  background: url("../images/Renaissance Zemamra.png") no-repeat scroll left
+    center;
+  background-size: 180px 180px;
+  width: 215px;
+  display: inline-block;
+  height: 400px;
+}
+/* 
+Difaa El Jadidi vs Renaissance Zemamra
+*/
