@@ -4,7 +4,7 @@ let teamLeft = document.querySelector(".teamfull");
 let teamRight = document.querySelector(".teamfull2");
 let send = document.getElementById("send");
 let next = document.getElementById("next");
-let previous = document.getElementById("previous");
+let mySearch = document.getElementById("search");
 let myCatg = document.getElementById("categorie");
 let gazon = document.querySelector(".gazon");
 let vs = document.querySelector(".vs");
@@ -66,3 +66,19 @@ next.onclick = () => {
     myConvert.firstElementChild.remove();
 
 };
+
+mySearch.onclick = () => {
+
+    teamLeft.style.background = `url('images/${teamOne.value}.png') no-repeat scroll center center`;
+    teamLeft.style.backgroundSize = "180px 180px";
+    
+    teamRight.style.background = `url('images/${teamTow.value}.png') no-repeat scroll center center`;
+    teamRight.style.backgroundSize = "180px 180px";   
+
+    gazon.style.background = `url('couverture/${myCatg.value}2.jpg') no-repeat`;
+
+    vs.style.background = `rgba(100,100,100,0.5) url('couverture/${myCatg.value}.jpg') no-repeat scroll center 50%`;
+    vs.style.backgroundSize = "105px 105px";
+
+    match.innerHTML = `<p style='font-size:10px'>${teamOne.value} vs ${teamTow.value} - ${myCatg.value} 2021-2022</p>`;
+}
