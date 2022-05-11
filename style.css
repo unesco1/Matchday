@@ -53,6 +53,13 @@ body {
   float: left;
 }
 
+.les-matchs {
+  overflow-y: scroll;
+  width: 350px;
+  height: 600px;
+  border-radius: 0%;
+}
+
 textarea {
   background-color: rgb(29, 7, 7);
   color: #fff;
@@ -94,4 +101,9 @@ button {
 
 .tags {
   max-width: 90%;
+}
+
+.backyellow {
+  background-color: yellow;
+  color:black
 }
